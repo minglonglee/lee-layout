@@ -1,0 +1,34 @@
+/*
+Author: LEE
+Version: v2019.04
+*/
+
+/***** base color begin *****/
+.color-black { color: black; }
+.color-gray { color: grey; }
+.color-white { color: white; }
+
+.color-red { color: red; }
+.color-orange { color: orange; }
+.color-yellow { color: yellow; }
+.color-green { color: green; }
+.color-cyan { color: cyan; }
+.color-blue { color: blue; }
+.color-purple { color: purple; }
+
+.color-pink { color: pink; }
+.color-brown { color: brown; }
+
+/***** base color end *****/
+
+/***** black opacity begin *****/
+.black-opacity-10p { background: rgba(0, 0, 0, 0.1); }
+.black-opacity-20p { background: rgba(0, 0, 0, 0.2); }
+.black-opacity-30p { background: rgba(0, 0, 0, 0.3); }
+.black-opacity-40p { background: rgba(0, 0, 0, 0.4); }
+.black-opacity-50p { background: rgba(0, 0, 0, 0.5); }
+.black-opacity-60p { background: rgba(0, 0, 0, 0.6); }
+.black-opacity-70p { background: rgba(0, 0, 0, 0.7); }
+.black-opacity-80p { background: rgba(0, 0, 0, 0.8); }
+.black-opacity-90p { background: rgba(0, 0, 0, 0.9); }
+/***** black opacity end *****/
