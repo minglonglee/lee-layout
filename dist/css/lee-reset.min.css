@@ -1,0 +1,5 @@
+/*
+Author: LEE
+Version: v2019.04
+*/
+*{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}*:before,*:after{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}html{font-size:14px}body{font-family:Helvetica Neue,Helvetica,PingFang SC,Hiragino Sans GB,Microsoft YaHei,SimSun,sans-serif}pre{white-space:pre-wrap}body,ul,h1,h2,h3,h4,h5{margin:0;padding:0}button,input,select,textarea{color:inherit;font-family:inherit;font-size:inherit;line-height:inherit}a{color:#333;text-decoration:none}a:hover{color:#0096ff}img{border:0}input,button{border:0;outline:0}button,input[type=button],input[type=submit]{cursor:pointer}input:focus,select:focus,textarea:focus{outline:0}input:-webkit-autofill{-webkit-box-shadow:0 0 0 1000px white inset}ul li{list-style:none}table{border-spacing:0;border-collapse:collapse}td,th{padding:0}
