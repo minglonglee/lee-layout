@@ -1,3 +1,8 @@
+/*
+Author: LEE
+Version: v2019.04
+*/
+
 /***** reset begin *****/
 * {
 	-webkit-box-sizing: border-box;
@@ -11,9 +16,7 @@
 	box-sizing: border-box;
 }
 
-html {
-	font-size: 14px;
-}
+html { font-size: 14px; }
 
 body { font-family: Helvetica Neue, Helvetica, PingFang SC, Hiragino Sans GB, Microsoft YaHei, SimSun, sans-serif; }
 
@@ -25,10 +28,10 @@ body, ul, h1, h2, h3, h4, h5 {
 }
 
 button, input, select, textarea {
+	color: inherit;
 	font-family: inherit;
 	font-size: inherit;
 	line-height: inherit;
-	color: inherit;
 }
 
 a {
@@ -46,6 +49,7 @@ input, button {
 	outline:none;
 }
 
+button,
 input[type=button],
 input[type=submit] {
 	cursor: pointer;
@@ -74,8 +78,7 @@ th { padding: 0; }
 .none { display: none; }
 .inline { display: inline; }
 .inline-block { display: inline-block; }
-.block { display: block; }
-.block-center { margin: 0 auto; }
+.block-center { display: block; margin: 0 auto; }
 .display-table { display: table; }
 .display-table-cell { display: table-cell; }
 .vertical-top, .v-t { vertical-align: top; }
@@ -86,54 +89,6 @@ th { padding: 0; }
 .overflow-scroll-x { overflow-x: auto; }
 .overflow-scroll-y { overflow-y: auto; }
 
-/* mouse style */
-.mouse-pointer { cursor: pointer; }
-.mouse-move { cursor: move; }
-.mouse-help { cursor: help; }
-.click-locked,
-.click-disabled {
-	pointer-events: none;
-}
-
-/***** text style *****/
-sub,
-sup {
-	font-size: 75%;
-	line-height: 0;
-	vertical-align: baseline;
-	position: relative;
-}
-sup { top: -.5em; }
-sub { bottom: -.25em; }
-
-.text-bold { font-weight: bold; }
-.text-break { word-break: break-all; }
-.text-left { text-align: left; }
-.text-right { text-align: right; }
-.text-center { text-align: center; }
-.text-justify { text-align: justify; }
-.text-nowrap { white-space: nowrap; }
-.text-lowercase {text-transform: lowercase; }
-.text-uppercase {text-transform: uppercase; }
-.text-capitalize {text-transform: capitalize; }
-.text-ellipsis {
-	overflow: hidden;
-	white-space: nowrap;
-	text-overflow: ellipsis;
-}
-
-/* opacity */
-.opacity-0 { opacity: 0; }
-.opacity-10p { opacity: 10%; }
-.opacity-20p { opacity: 20%; }
-.opacity-30p { opacity: 30%; }
-.opacity-40p { opacity: 40%; }
-.opacity-50p { opacity: 50%; }
-.opacity-60p { opacity: 60%; }
-.opacity-70p { opacity: 70%; }
-.opacity-80p { opacity: 80%; }
-.opacity-90p { opacity: 90%; }
-.opacity-100p { opacity: 100%; }
 
 /* float */
 .fl,

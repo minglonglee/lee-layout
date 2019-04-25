@@ -1,0 +1,88 @@
+/*
+Author: LEE
+Version: v2019.04
+*/
+
+/***** text color begin *****/
+.color-black { color: black; }
+.color-gray { color: grey; }
+.color-white { color: white; }
+
+.color-red { color: red; }
+.color-orange { color: orange; }
+.color-yellow { color: yellow; }
+.color-green { color: #3cdd82; }
+.color-blue { color: #0096ff; }
+.color-purple { color: purple; }
+
+.color-pink { color: pink; }
+.color-brown { color: brown; }
+
+/***** text color end *****/
+
+/***** background begin *****/
+.bg-color-black { background: #000; }
+.bg-color-white { background: #fff; }
+/***** background end *****/
+
+/***** opacity begin *****/
+.opacity-10p { opacity: .1 }
+.opacity-20p { opacity: .2 }
+.opacity-30p { opacity: .3 }
+.opacity-40p { opacity: .4 }
+.opacity-50p { opacity: .5 }
+.opacity-60p { opacity: .6 }
+.opacity-70p { opacity: .7 }
+.opacity-80p { opacity: .8 }
+.opacity-90p { opacity: .9 }
+/***** opacity end *****/
+
+/***** black opacity begin *****/
+.black-opacity-10p { background: rgba(0, 0, 0, 0.1); }
+.black-opacity-20p { background: rgba(0, 0, 0, 0.2); }
+.black-opacity-30p { background: rgba(0, 0, 0, 0.3); }
+.black-opacity-40p { background: rgba(0, 0, 0, 0.4); }
+.black-opacity-50p { background: rgba(0, 0, 0, 0.5); }
+.black-opacity-60p { background: rgba(0, 0, 0, 0.6); }
+.black-opacity-70p { background: rgba(0, 0, 0, 0.7); }
+.black-opacity-80p { background: rgba(0, 0, 0, 0.8); }
+.black-opacity-90p { background: rgba(0, 0, 0, 0.9); }
+/***** black opacity end *****/
+
+/***** text style begin *****/
+sub,
+sup {
+	font-size: 75%;
+	line-height: 0;
+	vertical-align: baseline;
+	position: relative;
+}
+sup { top: -.5em; }
+sub { bottom: -.25em; }
+
+.text-bold { font-weight: bold; }
+.text-break { word-break: break-all; }
+.text-left { text-align: left; }
+.text-right { text-align: right; }
+.text-center { text-align: center; }
+.text-justify { text-align: justify; }
+.text-nowrap { white-space: nowrap; }
+.text-lowercase {text-transform: lowercase; }
+.text-uppercase {text-transform: uppercase; }
+.text-capitalize {text-transform: capitalize; }
+.text-ellipsis {
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+/***** text style end *****/
+
+/* mouse style begin */
+.mouse-pointer { cursor: pointer; }
+.mouse-move { cursor: move; }
+.mouse-help { cursor: help; }
+.click-locked,
+.click-disabled {
+	pointer-events: none;
+}
+/* mouse style end */
