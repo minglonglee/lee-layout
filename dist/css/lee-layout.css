@@ -1,6 +1,6 @@
 /*
 Author: LEE
-Version: v2019.04
+Version: v2019.05
 */
 
 /***** reset begin *****/
@@ -68,9 +68,8 @@ table {
 }
 td,
 th { padding: 0; }
-/***** reset end *****/
 
-/***** base layout begin *****/
+/***** base layout *****/
 
 /* display */
 .hide { display: none!important; }
@@ -89,12 +88,9 @@ th { padding: 0; }
 .overflow-scroll-x { overflow-x: auto; }
 .overflow-scroll-y { overflow-y: auto; }
 
-
 /* float */
-.fl,
-.float-left { float: left; }
-.fr,
-.float-right { float: right; }
+.fl { float: left; }
+.fr { float: right; }
 .row::after,
 .clear::after {
 	clear: both;
@@ -2729,41 +2725,31 @@ th { padding: 0; }
 .pos-c-t,
 .pos-c-l,
 .pos-c-r,
-.pos-c-b,
-.pos-center,
-.pos-center-top,
-.pos-center-left,
-.pos-center-right,
-.pos-center-bottom {
+.pos-c-b {
 	margin: auto;
 }
-.pos-c,
-.pos-center {
+.pos-c {
 	top: 0;
 	left: 0;
 	right: 0;
 	bottom: 0;
 }
-.pos-c-t,
-.pos-center-top {
+.pos-c-t {
 	top: 0;
 	left: 0;
 	right: 0;
 }
-.pos-c-l,
-.pos-center-left {
+.pos-c-l {
 	top: 0;
 	left: 0;
 	bottom: 0;
 }
-.pos-c-r,
-.center-right {
+.pos-c-r {
 	top: 0;
 	right: 0;
 	bottom: 0;
 }
-.pos-c-b,
-.pos-center-bottom {
+.pos-c-b {
 	left: 0;
 	right: 0;
 	bottom: 0;
@@ -4069,6 +4055,7 @@ th { padding: 0; }
 .b-m290 { bottom: -290px; }
 .b-m300 { bottom: -300px; }
 
+/* z-index ++ 1 ~ 9 */
 .z-1 { z-index: 1; }
 .z-2 { z-index: 2; }
 .z-3 { z-index: 3; }
@@ -4078,6 +4065,8 @@ th { padding: 0; }
 .z-7 { z-index: 7; }
 .z-8 { z-index: 8; }
 .z-9 { z-index: 9; }
+
+/* z-index +10 10 ~ 90 */
 .z-10 { z-index: 10; }
 .z-20 { z-index: 20; }
 .z-30 { z-index: 30; }
@@ -4087,96 +4076,19 @@ th { padding: 0; }
 .z-70 { z-index: 70; }
 .z-80 { z-index: 80; }
 .z-90 { z-index: 90; }
+
+/* z-index +100 100 ~ 900 */
 .z-100 { z-index: 100; }
-.z-110 { z-index: 110; }
-.z-120 { z-index: 120; }
-.z-130 { z-index: 130; }
-.z-140 { z-index: 140; }
-.z-150 { z-index: 150; }
-.z-160 { z-index: 160; }
-.z-170 { z-index: 170; }
-.z-180 { z-index: 180; }
-.z-190 { z-index: 190; }
 .z-200 { z-index: 200; }
-.z-210 { z-index: 210; }
-.z-220 { z-index: 220; }
-.z-230 { z-index: 230; }
-.z-240 { z-index: 240; }
-.z-250 { z-index: 250; }
-.z-260 { z-index: 260; }
-.z-270 { z-index: 270; }
-.z-280 { z-index: 280; }
-.z-290 { z-index: 290; }
 .z-300 { z-index: 300; }
-.z-310 { z-index: 310; }
-.z-320 { z-index: 320; }
-.z-330 { z-index: 330; }
-.z-340 { z-index: 340; }
-.z-350 { z-index: 350; }
-.z-360 { z-index: 360; }
-.z-370 { z-index: 370; }
-.z-380 { z-index: 380; }
-.z-390 { z-index: 390; }
 .z-400 { z-index: 400; }
-.z-410 { z-index: 410; }
-.z-420 { z-index: 420; }
-.z-430 { z-index: 430; }
-.z-440 { z-index: 440; }
-.z-450 { z-index: 450; }
-.z-460 { z-index: 460; }
-.z-470 { z-index: 470; }
-.z-480 { z-index: 480; }
-.z-490 { z-index: 490; }
 .z-500 { z-index: 500; }
-.z-510 { z-index: 510; }
-.z-520 { z-index: 520; }
-.z-530 { z-index: 530; }
-.z-540 { z-index: 540; }
-.z-550 { z-index: 550; }
-.z-560 { z-index: 560; }
-.z-570 { z-index: 570; }
-.z-580 { z-index: 580; }
-.z-590 { z-index: 590; }
 .z-600 { z-index: 600; }
-.z-610 { z-index: 610; }
-.z-620 { z-index: 620; }
-.z-630 { z-index: 630; }
-.z-640 { z-index: 640; }
-.z-650 { z-index: 650; }
-.z-660 { z-index: 660; }
-.z-670 { z-index: 670; }
-.z-680 { z-index: 680; }
-.z-690 { z-index: 690; }
 .z-700 { z-index: 700; }
-.z-710 { z-index: 710; }
-.z-720 { z-index: 720; }
-.z-730 { z-index: 730; }
-.z-740 { z-index: 740; }
-.z-750 { z-index: 750; }
-.z-760 { z-index: 760; }
-.z-770 { z-index: 770; }
-.z-780 { z-index: 780; }
-.z-790 { z-index: 790; }
 .z-800 { z-index: 800; }
-.z-810 { z-index: 810; }
-.z-820 { z-index: 820; }
-.z-830 { z-index: 830; }
-.z-840 { z-index: 840; }
-.z-850 { z-index: 850; }
-.z-860 { z-index: 860; }
-.z-870 { z-index: 870; }
-.z-880 { z-index: 880; }
-.z-890 { z-index: 890; }
 .z-900 { z-index: 900; }
-.z-910 { z-index: 910; }
-.z-920 { z-index: 920; }
-.z-930 { z-index: 930; }
-.z-940 { z-index: 940; }
-.z-950 { z-index: 950; }
-.z-960 { z-index: 960; }
-.z-970 { z-index: 970; }
-.z-980 { z-index: 980; }
-.z-990 { z-index: 990; }
+
+/* z-index +100 1000 ~ 10000 */
 .z-1000 { z-index: 1000; }
 .z-2000 { z-index: 2000; }
 .z-3000 { z-index: 3000; }
@@ -4187,5 +4099,3 @@ th { padding: 0; }
 .z-8000 { z-index: 8000; }
 .z-9000 { z-index: 9000; }
 .z-10000 { z-index: 10000; }
-
-/***** base layout end *****/
