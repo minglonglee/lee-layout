@@ -88,6 +88,50 @@ th { padding: 0; }
 .overflow-scroll-x { overflow-x: auto; }
 .overflow-scroll-y { overflow-y: auto; }
 
+/***** text style begin *****/
+.color-black { color: black; }
+.color-gray { color: grey; }
+.color-white { color: white; }
+
+.color-red { color: red; }
+.color-orange { color: orange; }
+.color-yellow { color: yellow; }
+.color-green { color: #3cdd82; }
+.color-blue { color: #00a7f5; }
+.color-purple { color: purple; }
+
+.color-pink { color: pink; }
+.color-brown { color: brown; }
+
+.text-bold { font-weight: bold; }
+.text-break { word-break: break-all; }
+.text-left { text-align: left; }
+.text-right { text-align: right; }
+.text-center { text-align: center; }
+.text-justify { text-align: justify; }
+.text-nowrap { white-space: nowrap; }
+.text-lowercase {text-transform: lowercase; }
+.text-uppercase {text-transform: uppercase; }
+.text-capitalize {text-transform: capitalize; }
+.text-ellipsis {
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+/***** text style end *****/
+
+/* mouse style begin */
+.mouse-hand { cursor: pointer; }
+.mouse-move { cursor: move; }
+.mouse-help { cursor: help; }
+.mouse-disabled { cursor: not-allowed; }
+
+.click-locked,
+.click-disabled {
+	pointer-events: none;
+}
+/* mouse style end */
+
 /* float */
 .fl { float: left; }
 .fr { float: right; }
