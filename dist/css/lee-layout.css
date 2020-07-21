@@ -1,6 +1,6 @@
 /*
 Author: LEE
-Version: v2020.03.21
+Version: v2020.07.21
 */
 
 /***** reset begin *****/
@@ -51,6 +51,7 @@ input, button {
 
 button,
 input[type=button],
+input[type=file],
 input[type=submit] {
 	cursor: pointer;
 }
@@ -104,7 +105,8 @@ th { padding: 0; }
 .color-brown { color: brown; }
 
 .text-bold { font-weight: bold; }
-.text-break { word-break: break-all; }
+.text-break-all { word-break: break-all; }
+.text-break-word { word-break: break-word; }
 .text-left { text-align: left; }
 .text-right { text-align: right; }
 .text-center { text-align: center; }
@@ -124,7 +126,7 @@ th { padding: 0; }
 .mouse-hand { cursor: pointer; }
 .mouse-move { cursor: move; }
 .mouse-help { cursor: help; }
-.mouse-disabled { cursor: not-allowed; }
+.mouse-disabled, .mouse-not-allowed { cursor: not-allowed; }
 
 .click-locked,
 .click-disabled {
@@ -1468,6 +1470,11 @@ th { padding: 0; }
 .min-h100p { min-height: 100%; }
 
 /* max-height +2 50px ~ 100px */
+.max-h40 { max-height: 40px; }
+.max-h42 { max-height: 42px; }
+.max-h44 { max-height: 44px; }
+.max-h46 { max-height: 46px; }
+.max-h48 { max-height: 48px; }
 .max-h50 { max-height: 50px; }
 .max-h52 { max-height: 52px; }
 .max-h54 { max-height: 54px; }
