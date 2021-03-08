@@ -1,6 +1,6 @@
 /*
 Author: LEE
-Version: v2020.09.18
+Version: v2021.03.08
 */
 
 /***** reset begin *****/
@@ -135,7 +135,7 @@ th { padding: 0; }
 }
 /* mouse style end */
 
-/* float */
+/* float box */
 .fl { float: left; }
 .fr { float: right; }
 .row::after,
@@ -144,6 +144,44 @@ th { padding: 0; }
 	content: '';
 	display: block;
 }
+
+/* flex box */
+
+.d-flex {
+	display: -webkit-flex;
+	display: flex;
+}
+.i-flex {
+	display: -webkit-inline-flex;
+	display: inline-flex;
+}
+.flex-direction-row { flex-direction: row; } /* （默认值）：主轴为水平方向，起点在左端 */
+.flex-direction-row-reverse  { flex-direction: row-reverse; } /* 主轴为水平方向，起点在右端 */
+.flex-direction-column { flex-direction: column; } /* 主轴为垂直方向，起点在上沿 */
+.flex-direction-column-reverse { flex-direction: column-reverse; } /* 主轴为垂直方向，起点在下沿 */
+
+.flex-nowrap { flex-wrap: nowrap; } /* （默认）：不换行 */
+.flex-wrap { flex-wrap: wrap; } /* 换行，第一行在上方 */
+.flex-wrap-reverse { flex-wrap: wrap-reverse; } /* 换行，第一行在下方 */
+
+.justify-content-flex-start { justify-content: flex-start; } /* （默认值）：左对齐 */
+.justify-content-flex-end { justify-content: flex-end; } /* 右对齐 */
+.justify-content-center { justify-content: center; } /* 居中 */
+.justify-content-space-between { justify-content: space-between; } /* 两端对齐，项目之间的间隔都相等。 */
+.justify-content-space-around {  justify-content: space-around; } /* 每个项目两侧的间隔相等。所以，项目之间的间隔比项目与边框的间隔大一倍 */
+
+.align-items-stretch { align-items: stretch; } /* 默认值）：如果项目未设置高度或设为auto，将占满整个容器的高度 */
+.align-items-flex-start { align-items: flex-start; } /* 交叉轴的起点对齐 */
+.align-items-flex-end { align-items: flex-end; } /* 交叉轴的终点对齐 */
+.align-items-center { align-items: center; } /* 交叉轴的中点对齐 */
+.align-items-baseline { align-items: baseline; } /* 项目的第一行文字的基线对齐 */
+
+.align-content-flex-start { align-content: flex-start; } /* 与交叉轴的起点对齐 */
+.align-content-flex-end { align-content: flex-end; } /* 与交叉轴的终点对齐 */
+.align-content-center { align-content: center; } /* 与交叉轴的中点对齐 */
+.align-content-space-between { align-content: space-between; } /* 与交叉轴两端对齐，轴线之间的间隔平均分布 */
+.align-content-space-around { align-content: space-around; } /* 每根轴线两侧的间隔都相等。所以，轴线之间的间隔比轴线与边框的间隔大一倍 */
+.align-content-stretch { align-content: stretch; } /* 默认值）：轴线占满整个交叉轴 */
 
 /* border-radius ++ 1px ~ 60px; */
 .br1 { border-radius: 1px; }
